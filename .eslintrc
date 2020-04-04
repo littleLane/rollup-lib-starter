@@ -1,0 +1,18 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": ["plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "strict": "error",
+    "no-sequences": "error",
+    "no-mixed-operators": "error",
+    "no-useless-escape": "error",
+    "max-len": [
+      "error",
+      {
+        "code": 120
+      }
+    ]
+  },
+  "settings": {}
+}
